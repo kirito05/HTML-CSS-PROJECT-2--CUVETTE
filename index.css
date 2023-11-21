@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+#NavBar{
+    background: #6F6AF7;
+    padding: 0.3em;
+    height: 5.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#navbar_title{
+    position: absolute;
+    left: 0.5em;
+    font-family: 'Delius Unicase',cursive;
+    color: white;
+    font-size: 61.43px;
+    font-weight: 700;
+    line-height: 78.81px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#navbar_options-container{
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    position: absolute;
+    margin-left: 3em;
+}
+#navbar_dropmenu{
+    padding: 2em;
+    position: absolute;
+    right: 4em;
+}
+
+.navbar_font_styling{
+    font-family: 'DM Sans',sans-serif;
+    color: white;
+    font-size: 36.43px;
+    font-weight: 400;
+    line-height: 47.43px;
+}
