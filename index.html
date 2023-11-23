@@ -14,17 +14,43 @@
     <div id="NavBar">
         <div id="navbar_title"> Dappr </div>
         <div id="navbar_options-container">
-            <div class="navbar_font_styling">Home</div>
-            <div class="navbar_font_styling">About Us</div>
-            <div class="navbar_font_styling">Information</div>
-            <div class="navbar_font_styling">More <span class="material-symbols-outlined">arrow_drop_down</span></div>
-            <div><input type="search"><button type="submit"></button></div>
+            <div class="navbar_font_styling  mouse_hover">Home</div>
+            <div class="navbar_font_styling  mouse_hover">About Us</div>
+            <div class="navbar_font_styling  mouse_hover">Information</div>
+            <div class="navbar_font_styling  mouse_hover">More <span class="material-symbols-outlined">arrow_drop_down</span></div>
+            <div><input type="text" id="searchbar" placeholder="Search..." ><button type="submit" class="material-symbols-outlined mouse_hover" id="search_button">search</button></div>
         </div>
-        <div id="navbar_dropmenu"><span class="material-symbols-outlined" style="color: white;">
+        <div id="navbar_dropmenu" class="material-symbols-outlined mouse_hover" style="color: white;">
             menu
-            </span></div>
+        </div>
     </div>
-    <div id="container"></div>
+    <div id="container">
+        <div id="container_first-section">
+            <div id="container_first-section_image">
+                <img src="Group 1.png" alt="img-1" id="img-1">
+            </div>
+            <div id="container_first-section_textarea">
+                <textarea placeholder="It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a ......" id="textarea_1" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div id="container_second-section">
+            <div id="tag1" class="text_color">Total Question’s <br><br> 200,000 </div>
+            <div id="tag2" class="text_color">Total Answer’s <br><br> 105,000</div>
+            <div id="tag3" class="text_color">Participated <br><br> 10,000</div>
+            <div id="tag4" class="text_color">Total Passed <br><br> 6,000</div>
+        </div>
+        <div id="container_third-section">
+            <div id="container_third-section_options">
+                <div id="option1">YOUR INFO</div>
+                <div class="options">BOOKMARKS</div>
+                <div class="options">SETTINGS</div>
+            </div>
+            <div id="container_third-section_details">
+                <button type="submit" id="details_button">NEXT -></button>
+
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
