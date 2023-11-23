@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    display: grid;
 }
 #NavBar{
     background: #6F6AF7;
@@ -158,9 +159,9 @@ body{
 }
 #container_third-section_details{
     background-color: white;
-    width: 27em;
-    height: 19em;
-    padding: 3em;
+    width: 30em;
+    height: 21em;
+    padding: 2em;
     border-radius: 0.8em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -208,7 +209,7 @@ body{
 
 #details_button{
     position: relative;
-    top:21em;
+    top:8em;
     left:28em;
     background-color: #000000;
     color: white;
@@ -219,4 +220,30 @@ body{
     text-wrap: nowrap;
     cursor: pointer;
     border-radius: 0.5em;
+}
+.heading{
+    font-weight: bold;
+}
+#heading_block{
+    margin-left: 1em;
+}
+
+#footer_sticky-icon{
+    position: sticky;
+    left: 100%;
+    bottom: 2em;
+    width: 7em;
+}
+#sticky_icons{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top:2em;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+}
+.compny_logos{
+    width:3em;
+    border: 1px solid black;
 }
