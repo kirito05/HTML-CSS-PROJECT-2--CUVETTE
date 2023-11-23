@@ -232,7 +232,7 @@ body{
 #footer_sticky-icon{
     position: sticky;
     left: 100%;
-    bottom: 2em;
+    bottom: 1.8em;
     width: 7em;
 }
 #sticky_icons{
